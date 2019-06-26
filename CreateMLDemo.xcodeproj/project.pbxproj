@@ -1,0 +1,5964 @@
+// !$*UTF8*$!
+{
+   archiveVersion = "1";
+   objectVersion = "46";
+   objects = {
+      "COpenSSL::COpenSSL" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_371";
+         buildPhases = (
+            "OBJ_374",
+            "OBJ_608"
+         );
+         dependencies = (
+         );
+         name = "COpenSSL";
+         productName = "COpenSSL";
+         productReference = "COpenSSL::COpenSSL::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "COpenSSL::COpenSSL::Product" = {
+         isa = "PBXFileReference";
+         path = "COpenSSL.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "COpenSSL::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_610";
+         buildPhases = (
+            "OBJ_613"
+         );
+         dependencies = (
+         );
+         name = "COpenSSLPackageDescription";
+         productName = "COpenSSLPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+      "CreateMLDemo::PerfectTemplate" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_808";
+         buildPhases = (
+            "OBJ_811",
+            "OBJ_813"
+         );
+         dependencies = (
+            "OBJ_823",
+            "OBJ_824",
+            "OBJ_825",
+            "OBJ_826",
+            "OBJ_827",
+            "OBJ_828",
+            "OBJ_829",
+            "OBJ_830",
+            "OBJ_831"
+         );
+         name = "PerfectTemplate";
+         productName = "PerfectTemplate";
+         productReference = "CreateMLDemo::PerfectTemplate::Product";
+         productType = "com.apple.product-type.tool";
+      };
+      "CreateMLDemo::PerfectTemplate::Product" = {
+         isa = "PBXFileReference";
+         path = "PerfectTemplate";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "CreateMLDemo::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_616";
+         buildPhases = (
+            "OBJ_619"
+         );
+         dependencies = (
+         );
+         name = "CreateMLDemoPackageDescription";
+         productName = "CreateMLDemoPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+      "OBJ_1" = {
+         isa = "PBXProject";
+         attributes = {
+            LastSwiftMigration = "9999";
+            LastUpgradeCheck = "9999";
+         };
+         buildConfigurationList = "OBJ_2";
+         compatibilityVersion = "Xcode 3.2";
+         developmentRegion = "English";
+         hasScannedForEncodings = "0";
+         knownRegions = (
+            "en"
+         );
+         mainGroup = "OBJ_5";
+         productRefGroup = "OBJ_355";
+         projectDirPath = ".";
+         targets = (
+            "COpenSSL::COpenSSL",
+            "COpenSSL::SwiftPMPackageDescription",
+            "CreateMLDemo::SwiftPMPackageDescription",
+            "PerfectHTTPServer::PerfectCHTTPParser",
+            "PerfectCZlib::PerfectCZlib",
+            "PerfectCZlib::SwiftPMPackageDescription",
+            "PerfectCrypto::PerfectCrypto",
+            "PerfectCrypto::SwiftPMPackageDescription",
+            "PerfectHTTP::PerfectHTTP",
+            "PerfectHTTP::SwiftPMPackageDescription",
+            "PerfectHTTPServer::PerfectHTTPServer",
+            "PerfectHTTPServer::SwiftPMPackageDescription",
+            "PerfectLib::PerfectLib",
+            "PerfectLib::SwiftPMPackageDescription",
+            "PerfectNet::PerfectNet",
+            "PerfectNet::SwiftPMPackageDescription",
+            "CreateMLDemo::PerfectTemplate",
+            "PerfectThread::PerfectThread",
+            "PerfectThread::SwiftPMPackageDescription"
+         );
+      };
+      "OBJ_10" = {
+         isa = "PBXGroup";
+         children = (
+         );
+         name = "Tests";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_100" = {
+         isa = "PBXFileReference";
+         path = "a_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_101" = {
+         isa = "PBXFileReference";
+         path = "aes_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_102" = {
+         isa = "PBXFileReference";
+         path = "ameth_lib.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_103" = {
+         isa = "PBXFileReference";
+         path = "asn1_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_104" = {
+         isa = "PBXFileReference";
+         path = "asn_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_105" = {
+         isa = "PBXFileReference";
+         path = "b_dump.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_106" = {
+         isa = "PBXFileReference";
+         path = "b_print.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_107" = {
+         isa = "PBXFileReference";
+         path = "b_sock.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_108" = {
+         isa = "PBXFileReference";
+         path = "bf_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_109" = {
+         isa = "PBXFileReference";
+         path = "bio_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_11" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_12",
+            "OBJ_40",
+            "OBJ_65",
+            "OBJ_78",
+            "OBJ_88",
+            "OBJ_98",
+            "OBJ_337",
+            "OBJ_343"
+         );
+         name = "Dependencies";
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_110" = {
+         isa = "PBXFileReference";
+         path = "bn_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_111" = {
+         isa = "PBXFileReference";
+         path = "bss_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_112" = {
+         isa = "PBXFileReference";
+         path = "buf_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_113" = {
+         isa = "PBXFileReference";
+         path = "buffer.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_114" = {
+         isa = "PBXFileReference";
+         path = "by_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_115" = {
+         isa = "PBXFileReference";
+         path = "c_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_116" = {
+         isa = "PBXFileReference";
+         path = "camellia.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_117" = {
+         isa = "PBXFileReference";
+         path = "cbc128.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_118" = {
+         isa = "PBXFileReference";
+         path = "cbc3_enc.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_119" = {
+         isa = "PBXFileReference";
+         path = "cbc_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_12" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_13",
+            "OBJ_18",
+            "OBJ_39"
+         );
+         name = "PerfectHTTPServer 3.0.23";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_120" = {
+         isa = "PBXFileReference";
+         path = "ccm128.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_121" = {
+         isa = "PBXFileReference";
+         path = "cfb128.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_122" = {
+         isa = "PBXFileReference";
+         path = "cfb64ede.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_123" = {
+         isa = "PBXFileReference";
+         path = "cfb64enc.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_124" = {
+         isa = "PBXFileReference";
+         path = "cfb_enc.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_125" = {
+         isa = "PBXFileReference";
+         path = "cm_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_126" = {
+         isa = "PBXFileReference";
+         path = "cmac.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_127" = {
+         isa = "PBXFileReference";
+         path = "cmll_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_128" = {
+         isa = "PBXFileReference";
+         path = "cms_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_129" = {
+         isa = "PBXFileReference";
+         path = "comp_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_13" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_14",
+            "OBJ_15"
+         );
+         name = "PerfectCHTTPParser";
+         path = ".build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_130" = {
+         isa = "PBXFileReference";
+         path = "conf_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_131" = {
+         isa = "PBXFileReference";
+         path = "cpt_err.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_132" = {
+         isa = "PBXFileReference";
+         path = "cryptlib.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_133" = {
+         isa = "PBXFileReference";
+         path = "ctr128.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_134" = {
+         isa = "PBXFileReference";
+         path = "cversion.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_135" = {
+         isa = "PBXFileReference";
+         path = "d1_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_136" = {
+         isa = "PBXFileReference";
+         path = "d1_lib.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_137" = {
+         isa = "PBXFileReference";
+         path = "d2i_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_138" = {
+         isa = "PBXFileReference";
+         path = "des_enc.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_139" = {
+         isa = "PBXFileReference";
+         path = "des_old.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_14" = {
+         isa = "PBXFileReference";
+         path = "http_parser.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_140" = {
+         isa = "PBXFileReference";
+         path = "des_old2.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_141" = {
+         isa = "PBXFileReference";
+         path = "dh_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_142" = {
+         isa = "PBXFileReference";
+         path = "digest.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_143" = {
+         isa = "PBXFileReference";
+         path = "dsa_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_144" = {
+         isa = "PBXFileReference";
+         path = "dso_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_145" = {
+         isa = "PBXFileReference";
+         path = "e_4758cca.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_146" = {
+         isa = "PBXFileReference";
+         path = "e_4758cca_err.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_147" = {
+         isa = "PBXFileReference";
+         path = "e_aep.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_148" = {
+         isa = "PBXFileReference";
+         path = "e_aep_err.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_149" = {
+         isa = "PBXFileReference";
+         path = "e_aes.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_15" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_16",
+            "OBJ_17"
+         );
+         name = "include";
+         path = "include";
+         sourceTree = "<group>";
+      };
+      "OBJ_150" = {
+         isa = "PBXFileReference";
+         path = "e_aes_cbc_hmac_sha1.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_151" = {
+         isa = "PBXFileReference";
+         path = "e_aes_cbc_hmac_sha256.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_152" = {
+         isa = "PBXFileReference";
+         path = "e_atalla.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_153" = {
+         isa = "PBXFileReference";
+         path = "e_atalla_err.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_154" = {
+         isa = "PBXFileReference";
+         path = "e_bf.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_155" = {
+         isa = "PBXFileReference";
+         path = "e_camellia.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_156" = {
+         isa = "PBXFileReference";
+         path = "e_capi.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_157" = {
+         isa = "PBXFileReference";
+         path = "e_capi_err.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_158" = {
+         isa = "PBXFileReference";
+         path = "e_cast.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_159" = {
+         isa = "PBXFileReference";
+         path = "e_chil.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_16" = {
+         isa = "PBXFileReference";
+         path = "http_parser.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_160" = {
+         isa = "PBXFileReference";
+         path = "e_chil_err.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_161" = {
+         isa = "PBXFileReference";
+         path = "e_cswift.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_162" = {
+         isa = "PBXFileReference";
+         path = "e_cswift_err.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_163" = {
+         isa = "PBXFileReference";
+         path = "e_des.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_164" = {
+         isa = "PBXFileReference";
+         path = "e_des3.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_165" = {
+         isa = "PBXFileReference";
+         path = "e_gmp.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_166" = {
+         isa = "PBXFileReference";
+         path = "e_gmp_err.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_167" = {
+         isa = "PBXFileReference";
+         path = "e_gost_err.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_168" = {
+         isa = "PBXFileReference";
+         path = "e_idea.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_169" = {
+         isa = "PBXFileReference";
+         path = "e_null.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_17" = {
+         isa = "PBXFileReference";
+         name = "module.modulemap";
+         path = "/Users/ralucamarusca/Documents/Work/ZipperStudios/CreateMLDemo/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include/module.modulemap";
+         sourceTree = "<group>";
+      };
+      "OBJ_170" = {
+         isa = "PBXFileReference";
+         path = "e_nuron.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_171" = {
+         isa = "PBXFileReference";
+         path = "e_nuron_err.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_172" = {
+         isa = "PBXFileReference";
+         path = "e_old.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_173" = {
+         isa = "PBXFileReference";
+         path = "e_padlock.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_174" = {
+         isa = "PBXFileReference";
+         path = "e_rc2.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_175" = {
+         isa = "PBXFileReference";
+         path = "e_rc4.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_176" = {
+         isa = "PBXFileReference";
+         path = "e_rc4_hmac_md5.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_177" = {
+         isa = "PBXFileReference";
+         path = "e_rc5.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_178" = {
+         isa = "PBXFileReference";
+         path = "e_seed.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_179" = {
+         isa = "PBXFileReference";
+         path = "e_sureware.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_18" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_19",
+            "OBJ_22",
+            "OBJ_34",
+            "OBJ_35",
+            "OBJ_36",
+            "OBJ_37",
+            "OBJ_38"
+         );
+         name = "PerfectHTTPServer";
+         path = ".build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_180" = {
+         isa = "PBXFileReference";
+         path = "e_sureware_err.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_181" = {
+         isa = "PBXFileReference";
+         path = "e_ubsec.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_182" = {
+         isa = "PBXFileReference";
+         path = "e_ubsec_err.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_183" = {
+         isa = "PBXFileReference";
+         path = "e_xcbc_d.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_184" = {
+         isa = "PBXFileReference";
+         path = "ebcdic.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_185" = {
+         isa = "PBXFileReference";
+         path = "ec2_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_186" = {
+         isa = "PBXFileReference";
+         path = "ec_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_187" = {
+         isa = "PBXFileReference";
+         path = "ecb3_enc.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_188" = {
+         isa = "PBXFileReference";
+         path = "ecb_enc.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_189" = {
+         isa = "PBXFileReference";
+         path = "ech_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_19" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_20",
+            "OBJ_21"
+         );
+         name = "HTTP11";
+         path = "HTTP11";
+         sourceTree = "<group>";
+      };
+      "OBJ_190" = {
+         isa = "PBXFileReference";
+         path = "eck_prn.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_191" = {
+         isa = "PBXFileReference";
+         path = "ecp_mont.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_192" = {
+         isa = "PBXFileReference";
+         path = "ecp_nist.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_193" = {
+         isa = "PBXFileReference";
+         path = "ecp_nistp224.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_194" = {
+         isa = "PBXFileReference";
+         path = "ecp_nistp256.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_195" = {
+         isa = "PBXFileReference";
+         path = "ecp_nistp521.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_196" = {
+         isa = "PBXFileReference";
+         path = "ecp_nistputil.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_197" = {
+         isa = "PBXFileReference";
+         path = "ecp_oct.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_198" = {
+         isa = "PBXFileReference";
+         path = "ecp_smpl.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_199" = {
+         isa = "PBXFileReference";
+         path = "ecs_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_2" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_3",
+            "OBJ_4"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_20" = {
+         isa = "PBXFileReference";
+         path = "HTTP11Request.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_200" = {
+         isa = "PBXFileReference";
+         path = "ede_cbcm_enc.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_201" = {
+         isa = "PBXFileReference";
+         path = "enc_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_202" = {
+         isa = "PBXFileReference";
+         path = "encode.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_203" = {
+         isa = "PBXFileReference";
+         path = "eng_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_204" = {
+         isa = "PBXFileReference";
+         path = "err.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_205" = {
+         isa = "PBXFileReference";
+         path = "err_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_206" = {
+         isa = "PBXFileReference";
+         path = "evp_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_207" = {
+         isa = "PBXFileReference";
+         path = "ex_data.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_208" = {
+         isa = "PBXFileReference";
+         path = "f_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_209" = {
+         isa = "PBXFileReference";
+         path = "fcrypt.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_21" = {
+         isa = "PBXFileReference";
+         path = "HTTP11Response.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_210" = {
+         isa = "PBXFileReference";
+         path = "fcrypt_b.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_211" = {
+         isa = "PBXFileReference";
+         path = "fips_ers.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_212" = {
+         isa = "PBXFileReference";
+         path = "gcm128.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_213" = {
+         isa = "PBXFileReference";
+         path = "getenv.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_214" = {
+         isa = "PBXFileReference";
+         path = "gost2001.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_215" = {
+         isa = "PBXFileReference";
+         path = "gost2001_keyx.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_216" = {
+         isa = "PBXFileReference";
+         path = "gost89.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_217" = {
+         isa = "PBXFileReference";
+         path = "gost94_keyx.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_218" = {
+         isa = "PBXFileReference";
+         path = "gost_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_219" = {
+         isa = "PBXFileReference";
+         path = "gosthash.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_22" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_23",
+            "OBJ_24",
+            "OBJ_25",
+            "OBJ_26",
+            "OBJ_27",
+            "OBJ_28",
+            "OBJ_29",
+            "OBJ_30",
+            "OBJ_31",
+            "OBJ_32",
+            "OBJ_33"
+         );
+         name = "HTTP2";
+         path = "HTTP2";
+         sourceTree = "<group>";
+      };
+      "OBJ_220" = {
+         isa = "PBXFileReference";
+         path = "hm_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_221" = {
+         isa = "PBXFileReference";
+         path = "hmac.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_222" = {
+         isa = "PBXFileReference";
+         path = "i2d_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_223" = {
+         isa = "PBXFileReference";
+         path = "i_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_224" = {
+         isa = "PBXFileReference";
+         path = "krb5_asn.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_225" = {
+         isa = "PBXFileReference";
+         path = "kssl.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_226" = {
+         isa = "PBXFileReference";
+         path = "lh_stats.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_227" = {
+         isa = "PBXFileReference";
+         path = "lhash.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_228" = {
+         isa = "PBXFileReference";
+         path = "m_dss.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_229" = {
+         isa = "PBXFileReference";
+         path = "m_dss1.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_23" = {
+         isa = "PBXFileReference";
+         path = "HPACK.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_230" = {
+         isa = "PBXFileReference";
+         path = "m_ecdsa.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_231" = {
+         isa = "PBXFileReference";
+         path = "m_md2.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_232" = {
+         isa = "PBXFileReference";
+         path = "m_md4.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_233" = {
+         isa = "PBXFileReference";
+         path = "m_md5.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_234" = {
+         isa = "PBXFileReference";
+         path = "m_mdc2.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_235" = {
+         isa = "PBXFileReference";
+         path = "m_null.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_236" = {
+         isa = "PBXFileReference";
+         path = "m_ripemd.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_237" = {
+         isa = "PBXFileReference";
+         path = "m_sha.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_238" = {
+         isa = "PBXFileReference";
+         path = "m_sha1.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_239" = {
+         isa = "PBXFileReference";
+         path = "m_sigver.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_24" = {
+         isa = "PBXFileReference";
+         path = "HTTP2.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_240" = {
+         isa = "PBXFileReference";
+         path = "m_wp.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_241" = {
+         isa = "PBXFileReference";
+         path = "md4_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_242" = {
+         isa = "PBXFileReference";
+         path = "md5_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_243" = {
+         isa = "PBXFileReference";
+         path = "md_rand.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_244" = {
+         isa = "PBXFileReference";
+         path = "mdc2_one.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_245" = {
+         isa = "PBXFileReference";
+         path = "mdc2dgst.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_246" = {
+         isa = "PBXFileReference";
+         path = "mem.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_247" = {
+         isa = "PBXFileReference";
+         path = "mem_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_248" = {
+         isa = "PBXFileReference";
+         path = "n_pkey.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_249" = {
+         isa = "PBXFileReference";
+         path = "names.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_25" = {
+         isa = "PBXFileReference";
+         path = "HTTP2Client.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_250" = {
+         isa = "PBXFileReference";
+         path = "nsseq.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_251" = {
+         isa = "PBXFileReference";
+         path = "o_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_252" = {
+         isa = "PBXFileReference";
+         path = "obj_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_253" = {
+         isa = "PBXFileReference";
+         path = "ocsp_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_254" = {
+         isa = "PBXFileReference";
+         path = "ofb128.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_255" = {
+         isa = "PBXFileReference";
+         path = "ofb64ede.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_256" = {
+         isa = "PBXFileReference";
+         path = "ofb64enc.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_257" = {
+         isa = "PBXFileReference";
+         path = "ofb_enc.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_258" = {
+         isa = "PBXFileReference";
+         path = "openbsd_hw.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_259" = {
+         isa = "PBXFileReference";
+         path = "p12_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_26" = {
+         isa = "PBXFileReference";
+         path = "HTTP2Frame.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_260" = {
+         isa = "PBXFileReference";
+         path = "p5_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_261" = {
+         isa = "PBXFileReference";
+         path = "p8_pkey.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_262" = {
+         isa = "PBXFileReference";
+         path = "p_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_263" = {
+         isa = "PBXFileReference";
+         path = "pcbc_enc.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_264" = {
+         isa = "PBXFileReference";
+         path = "pcy_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_265" = {
+         isa = "PBXFileReference";
+         path = "pem_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_266" = {
+         isa = "PBXFileReference";
+         path = "pk12err.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_267" = {
+         isa = "PBXFileReference";
+         path = "pk7_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_268" = {
+         isa = "PBXFileReference";
+         path = "pkcs7err.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_269" = {
+         isa = "PBXFileReference";
+         path = "pmeth_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_27" = {
+         isa = "PBXFileReference";
+         path = "HTTP2FrameReader.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_270" = {
+         isa = "PBXFileReference";
+         path = "pqueue.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_271" = {
+         isa = "PBXFileReference";
+         path = "pvkfmt.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_272" = {
+         isa = "PBXFileReference";
+         path = "qud_cksm.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_273" = {
+         isa = "PBXFileReference";
+         path = "rand_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_274" = {
+         isa = "PBXFileReference";
+         path = "randfile.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_275" = {
+         isa = "PBXFileReference";
+         path = "rc2_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_276" = {
+         isa = "PBXFileReference";
+         path = "rc2cfb64.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_277" = {
+         isa = "PBXFileReference";
+         path = "rc2ofb64.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_278" = {
+         isa = "PBXFileReference";
+         path = "rc4_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_279" = {
+         isa = "PBXFileReference";
+         path = "read2pwd.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_28" = {
+         isa = "PBXFileReference";
+         path = "HTTP2FrameWriter.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_280" = {
+         isa = "PBXFileReference";
+         path = "rmd_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_281" = {
+         isa = "PBXFileReference";
+         path = "rpc_enc.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_282" = {
+         isa = "PBXFileReference";
+         path = "rsa_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_283" = {
+         isa = "PBXFileReference";
+         path = "rsaz_exp.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_284" = {
+         isa = "PBXFileReference";
+         path = "s23_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_285" = {
+         isa = "PBXFileReference";
+         path = "s2_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_286" = {
+         isa = "PBXFileReference";
+         path = "s3_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_287" = {
+         isa = "PBXFileReference";
+         path = "seed.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_288" = {
+         isa = "PBXFileReference";
+         path = "seed_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_289" = {
+         isa = "PBXFileReference";
+         path = "set_key.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_29" = {
+         isa = "PBXFileReference";
+         path = "HTTP2PrefaceValidator.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_290" = {
+         isa = "PBXFileReference";
+         path = "sha1_one.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_291" = {
+         isa = "PBXFileReference";
+         path = "sha1dgst.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_292" = {
+         isa = "PBXFileReference";
+         path = "sha256.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_293" = {
+         isa = "PBXFileReference";
+         path = "sha512.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_294" = {
+         isa = "PBXFileReference";
+         path = "sha_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_295" = {
+         isa = "PBXFileReference";
+         path = "srp_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_296" = {
+         isa = "PBXFileReference";
+         path = "ssl_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_297" = {
+         isa = "PBXFileReference";
+         path = "stack.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_298" = {
+         isa = "PBXFileReference";
+         path = "str2key.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_299" = {
+         isa = "PBXFileReference";
+         path = "t1_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_3" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "NO";
+            DEBUG_INFORMATION_FORMAT = "dwarf";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            ENABLE_NS_ASSERTIONS = "YES";
+            GCC_OPTIMIZATION_LEVEL = "0";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1",
+               "DEBUG=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            ONLY_ACTIVE_ARCH = "YES";
+            OTHER_SWIFT_FLAGS = (
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE",
+               "DEBUG"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Debug";
+      };
+      "OBJ_30" = {
+         isa = "PBXFileReference";
+         path = "HTTP2Request.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_300" = {
+         isa = "PBXFileReference";
+         path = "t_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_301" = {
+         isa = "PBXFileReference";
+         path = "tasn_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_302" = {
+         isa = "PBXFileReference";
+         path = "tb_asnmth.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_303" = {
+         isa = "PBXFileReference";
+         path = "tb_cipher.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_304" = {
+         isa = "PBXFileReference";
+         path = "tb_dh.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_305" = {
+         isa = "PBXFileReference";
+         path = "tb_digest.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_306" = {
+         isa = "PBXFileReference";
+         path = "tb_dsa.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_307" = {
+         isa = "PBXFileReference";
+         path = "tb_ecdh.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_308" = {
+         isa = "PBXFileReference";
+         path = "tb_ecdsa.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_309" = {
+         isa = "PBXFileReference";
+         path = "tb_pkmeth.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_31" = {
+         isa = "PBXFileReference";
+         path = "HTTP2Response.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_310" = {
+         isa = "PBXFileReference";
+         path = "tb_rand.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_311" = {
+         isa = "PBXFileReference";
+         path = "tb_rsa.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_312" = {
+         isa = "PBXFileReference";
+         path = "tb_store.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_313" = {
+         isa = "PBXFileReference";
+         path = "th-lock.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_314" = {
+         isa = "PBXFileReference";
+         path = "tls_srp.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_315" = {
+         isa = "PBXFileReference";
+         path = "ts_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_316" = {
+         isa = "PBXFileReference";
+         path = "txt_db.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_317" = {
+         isa = "PBXFileReference";
+         path = "ui_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_318" = {
+         isa = "PBXFileReference";
+         path = "uid.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_319" = {
+         isa = "PBXFileReference";
+         path = "v3_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_32" = {
+         isa = "PBXFileReference";
+         path = "HTTP2Session.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_320" = {
+         isa = "PBXFileReference";
+         path = "v3_lib.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_321" = {
+         isa = "PBXFileReference";
+         path = "v3err.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_322" = {
+         isa = "PBXFileReference";
+         path = "wp_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_323" = {
+         isa = "PBXFileReference";
+         path = "wrap128.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_324" = {
+         isa = "PBXFileReference";
+         path = "x509_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_325" = {
+         isa = "PBXFileReference";
+         path = "x509cset.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_326" = {
+         isa = "PBXFileReference";
+         path = "x509name.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_327" = {
+         isa = "PBXFileReference";
+         path = "x509rset.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_328" = {
+         isa = "PBXFileReference";
+         path = "x509spki.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_329" = {
+         isa = "PBXFileReference";
+         path = "x509type.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_33" = {
+         isa = "PBXFileReference";
+         path = "HTTP2SessionSettings.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_330" = {
+         isa = "PBXFileReference";
+         path = "x_.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_331" = {
+         isa = "PBXFileReference";
+         path = "xcbc_enc.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_332" = {
+         isa = "PBXFileReference";
+         path = "xts128.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_333" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_334",
+            "OBJ_335"
+         );
+         name = "include";
+         path = "include";
+         sourceTree = "<group>";
+      };
+      "OBJ_334" = {
+         isa = "PBXFileReference";
+         path = "openssl.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_335" = {
+         isa = "PBXFileReference";
+         name = "module.modulemap";
+         path = "/Users/ralucamarusca/Documents/Work/ZipperStudios/CreateMLDemo/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap";
+         sourceTree = "<group>";
+      };
+      "OBJ_336" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/ralucamarusca/Documents/Work/ZipperStudios/CreateMLDemo/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_337" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_338",
+            "OBJ_342"
+         );
+         name = "PerfectThread 3.0.6";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_338" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_339",
+            "OBJ_340",
+            "OBJ_341"
+         );
+         name = "PerfectThread";
+         path = ".build/checkouts/Perfect-Thread/Sources/PerfectThread";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_339" = {
+         isa = "PBXFileReference";
+         path = "Promise.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_34" = {
+         isa = "PBXFileReference";
+         path = "HTTPContentCompression.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_340" = {
+         isa = "PBXFileReference";
+         path = "ThreadQueue.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_341" = {
+         isa = "PBXFileReference";
+         path = "Threading.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_342" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/ralucamarusca/Documents/Work/ZipperStudios/CreateMLDemo/PerfectTemplate/.build/checkouts/Perfect-Thread/Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_343" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_344",
+            "OBJ_354"
+         );
+         name = "PerfectLib 3.1.4";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_344" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_345",
+            "OBJ_346",
+            "OBJ_347",
+            "OBJ_348",
+            "OBJ_349",
+            "OBJ_350",
+            "OBJ_351",
+            "OBJ_352",
+            "OBJ_353"
+         );
+         name = "PerfectLib";
+         path = ".build/checkouts/PerfectLib/Sources/PerfectLib";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_345" = {
+         isa = "PBXFileReference";
+         path = "Bytes.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_346" = {
+         isa = "PBXFileReference";
+         path = "Dir.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_347" = {
+         isa = "PBXFileReference";
+         path = "File.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_348" = {
+         isa = "PBXFileReference";
+         path = "JSONConvertible.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_349" = {
+         isa = "PBXFileReference";
+         path = "Log.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_35" = {
+         isa = "PBXFileReference";
+         path = "HTTPMultiplexer.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_350" = {
+         isa = "PBXFileReference";
+         path = "PerfectError.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_351" = {
+         isa = "PBXFileReference";
+         path = "PerfectServer.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_352" = {
+         isa = "PBXFileReference";
+         path = "SysProcess.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_353" = {
+         isa = "PBXFileReference";
+         path = "Utilities.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_354" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/ralucamarusca/Documents/Work/ZipperStudios/CreateMLDemo/PerfectTemplate/.build/checkouts/PerfectLib/Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_355" = {
+         isa = "PBXGroup";
+         children = (
+            "PerfectCZlib::PerfectCZlib::Product",
+            "COpenSSL::COpenSSL::Product",
+            "PerfectHTTP::PerfectHTTP::Product",
+            "CreateMLDemo::PerfectTemplate::Product",
+            "PerfectLib::PerfectLib::Product",
+            "PerfectHTTPServer::PerfectCHTTPParser::Product",
+            "PerfectThread::PerfectThread::Product",
+            "PerfectCrypto::PerfectCrypto::Product",
+            "PerfectNet::PerfectNet::Product",
+            "PerfectHTTPServer::PerfectHTTPServer::Product"
+         );
+         name = "Products";
+         path = "";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "OBJ_36" = {
+         isa = "PBXFileReference";
+         path = "HTTPServer.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_366" = {
+         isa = "PBXFileReference";
+         path = "LICENSE";
+         sourceTree = "<group>";
+      };
+      "OBJ_367" = {
+         isa = "PBXFileReference";
+         path = "LICENSE.zh_CN";
+         sourceTree = "<group>";
+      };
+      "OBJ_368" = {
+         isa = "PBXFileReference";
+         path = "README.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_369" = {
+         isa = "PBXFileReference";
+         path = "README.zh_CN.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_37" = {
+         isa = "PBXFileReference";
+         path = "HTTPServerEx.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_371" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_372",
+            "OBJ_373"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_372" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            DEFINES_MODULE = "NO";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/COpenSSL_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "COpenSSL";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "COpenSSL";
+         };
+         name = "Debug";
+      };
+      "OBJ_373" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            DEFINES_MODULE = "NO";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/COpenSSL_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "COpenSSL";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "COpenSSL";
+         };
+         name = "Release";
+      };
+      "OBJ_374" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_375",
+            "OBJ_376",
+            "OBJ_377",
+            "OBJ_378",
+            "OBJ_379",
+            "OBJ_380",
+            "OBJ_381",
+            "OBJ_382",
+            "OBJ_383",
+            "OBJ_384",
+            "OBJ_385",
+            "OBJ_386",
+            "OBJ_387",
+            "OBJ_388",
+            "OBJ_389",
+            "OBJ_390",
+            "OBJ_391",
+            "OBJ_392",
+            "OBJ_393",
+            "OBJ_394",
+            "OBJ_395",
+            "OBJ_396",
+            "OBJ_397",
+            "OBJ_398",
+            "OBJ_399",
+            "OBJ_400",
+            "OBJ_401",
+            "OBJ_402",
+            "OBJ_403",
+            "OBJ_404",
+            "OBJ_405",
+            "OBJ_406",
+            "OBJ_407",
+            "OBJ_408",
+            "OBJ_409",
+            "OBJ_410",
+            "OBJ_411",
+            "OBJ_412",
+            "OBJ_413",
+            "OBJ_414",
+            "OBJ_415",
+            "OBJ_416",
+            "OBJ_417",
+            "OBJ_418",
+            "OBJ_419",
+            "OBJ_420",
+            "OBJ_421",
+            "OBJ_422",
+            "OBJ_423",
+            "OBJ_424",
+            "OBJ_425",
+            "OBJ_426",
+            "OBJ_427",
+            "OBJ_428",
+            "OBJ_429",
+            "OBJ_430",
+            "OBJ_431",
+            "OBJ_432",
+            "OBJ_433",
+            "OBJ_434",
+            "OBJ_435",
+            "OBJ_436",
+            "OBJ_437",
+            "OBJ_438",
+            "OBJ_439",
+            "OBJ_440",
+            "OBJ_441",
+            "OBJ_442",
+            "OBJ_443",
+            "OBJ_444",
+            "OBJ_445",
+            "OBJ_446",
+            "OBJ_447",
+            "OBJ_448",
+            "OBJ_449",
+            "OBJ_450",
+            "OBJ_451",
+            "OBJ_452",
+            "OBJ_453",
+            "OBJ_454",
+            "OBJ_455",
+            "OBJ_456",
+            "OBJ_457",
+            "OBJ_458",
+            "OBJ_459",
+            "OBJ_460",
+            "OBJ_461",
+            "OBJ_462",
+            "OBJ_463",
+            "OBJ_464",
+            "OBJ_465",
+            "OBJ_466",
+            "OBJ_467",
+            "OBJ_468",
+            "OBJ_469",
+            "OBJ_470",
+            "OBJ_471",
+            "OBJ_472",
+            "OBJ_473",
+            "OBJ_474",
+            "OBJ_475",
+            "OBJ_476",
+            "OBJ_477",
+            "OBJ_478",
+            "OBJ_479",
+            "OBJ_480",
+            "OBJ_481",
+            "OBJ_482",
+            "OBJ_483",
+            "OBJ_484",
+            "OBJ_485",
+            "OBJ_486",
+            "OBJ_487",
+            "OBJ_488",
+            "OBJ_489",
+            "OBJ_490",
+            "OBJ_491",
+            "OBJ_492",
+            "OBJ_493",
+            "OBJ_494",
+            "OBJ_495",
+            "OBJ_496",
+            "OBJ_497",
+            "OBJ_498",
+            "OBJ_499",
+            "OBJ_500",
+            "OBJ_501",
+            "OBJ_502",
+            "OBJ_503",
+            "OBJ_504",
+            "OBJ_505",
+            "OBJ_506",
+            "OBJ_507",
+            "OBJ_508",
+            "OBJ_509",
+            "OBJ_510",
+            "OBJ_511",
+            "OBJ_512",
+            "OBJ_513",
+            "OBJ_514",
+            "OBJ_515",
+            "OBJ_516",
+            "OBJ_517",
+            "OBJ_518",
+            "OBJ_519",
+            "OBJ_520",
+            "OBJ_521",
+            "OBJ_522",
+            "OBJ_523",
+            "OBJ_524",
+            "OBJ_525",
+            "OBJ_526",
+            "OBJ_527",
+            "OBJ_528",
+            "OBJ_529",
+            "OBJ_530",
+            "OBJ_531",
+            "OBJ_532",
+            "OBJ_533",
+            "OBJ_534",
+            "OBJ_535",
+            "OBJ_536",
+            "OBJ_537",
+            "OBJ_538",
+            "OBJ_539",
+            "OBJ_540",
+            "OBJ_541",
+            "OBJ_542",
+            "OBJ_543",
+            "OBJ_544",
+            "OBJ_545",
+            "OBJ_546",
+            "OBJ_547",
+            "OBJ_548",
+            "OBJ_549",
+            "OBJ_550",
+            "OBJ_551",
+            "OBJ_552",
+            "OBJ_553",
+            "OBJ_554",
+            "OBJ_555",
+            "OBJ_556",
+            "OBJ_557",
+            "OBJ_558",
+            "OBJ_559",
+            "OBJ_560",
+            "OBJ_561",
+            "OBJ_562",
+            "OBJ_563",
+            "OBJ_564",
+            "OBJ_565",
+            "OBJ_566",
+            "OBJ_567",
+            "OBJ_568",
+            "OBJ_569",
+            "OBJ_570",
+            "OBJ_571",
+            "OBJ_572",
+            "OBJ_573",
+            "OBJ_574",
+            "OBJ_575",
+            "OBJ_576",
+            "OBJ_577",
+            "OBJ_578",
+            "OBJ_579",
+            "OBJ_580",
+            "OBJ_581",
+            "OBJ_582",
+            "OBJ_583",
+            "OBJ_584",
+            "OBJ_585",
+            "OBJ_586",
+            "OBJ_587",
+            "OBJ_588",
+            "OBJ_589",
+            "OBJ_590",
+            "OBJ_591",
+            "OBJ_592",
+            "OBJ_593",
+            "OBJ_594",
+            "OBJ_595",
+            "OBJ_596",
+            "OBJ_597",
+            "OBJ_598",
+            "OBJ_599",
+            "OBJ_600",
+            "OBJ_601",
+            "OBJ_602",
+            "OBJ_603",
+            "OBJ_604",
+            "OBJ_605",
+            "OBJ_606",
+            "OBJ_607"
+         );
+      };
+      "OBJ_375" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_100";
+      };
+      "OBJ_376" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_101";
+      };
+      "OBJ_377" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_102";
+      };
+      "OBJ_378" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_103";
+      };
+      "OBJ_379" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_104";
+      };
+      "OBJ_38" = {
+         isa = "PBXFileReference";
+         path = "HTTPServerExConfig.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_380" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_105";
+      };
+      "OBJ_381" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_106";
+      };
+      "OBJ_382" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_107";
+      };
+      "OBJ_383" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_108";
+      };
+      "OBJ_384" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_109";
+      };
+      "OBJ_385" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_110";
+      };
+      "OBJ_386" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_111";
+      };
+      "OBJ_387" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_112";
+      };
+      "OBJ_388" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_113";
+      };
+      "OBJ_389" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_114";
+      };
+      "OBJ_39" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/ralucamarusca/Documents/Work/ZipperStudios/CreateMLDemo/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_390" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_115";
+      };
+      "OBJ_391" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_116";
+      };
+      "OBJ_392" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_117";
+      };
+      "OBJ_393" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_118";
+      };
+      "OBJ_394" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_119";
+      };
+      "OBJ_395" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_120";
+      };
+      "OBJ_396" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_121";
+      };
+      "OBJ_397" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_122";
+      };
+      "OBJ_398" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_123";
+      };
+      "OBJ_399" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_124";
+      };
+      "OBJ_4" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "YES";
+            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            GCC_OPTIMIZATION_LEVEL = "s";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_SWIFT_FLAGS = (
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Release";
+      };
+      "OBJ_40" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_41",
+            "OBJ_64"
+         );
+         name = "PerfectCZlib 0.0.4";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_400" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_125";
+      };
+      "OBJ_401" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_126";
+      };
+      "OBJ_402" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_127";
+      };
+      "OBJ_403" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_128";
+      };
+      "OBJ_404" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_129";
+      };
+      "OBJ_405" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_130";
+      };
+      "OBJ_406" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_131";
+      };
+      "OBJ_407" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_132";
+      };
+      "OBJ_408" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_133";
+      };
+      "OBJ_409" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_134";
+      };
+      "OBJ_41" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_42",
+            "OBJ_43",
+            "OBJ_44",
+            "OBJ_45",
+            "OBJ_46",
+            "OBJ_47",
+            "OBJ_48",
+            "OBJ_49",
+            "OBJ_50",
+            "OBJ_51",
+            "OBJ_52",
+            "OBJ_53",
+            "OBJ_54",
+            "OBJ_55",
+            "OBJ_56",
+            "OBJ_57"
+         );
+         name = "PerfectCZlib";
+         path = ".build/checkouts/Perfect-CZlib-src/PerfectCZlib";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_410" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_135";
+      };
+      "OBJ_411" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_136";
+      };
+      "OBJ_412" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_137";
+      };
+      "OBJ_413" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_138";
+      };
+      "OBJ_414" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_139";
+      };
+      "OBJ_415" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_140";
+      };
+      "OBJ_416" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_141";
+      };
+      "OBJ_417" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_142";
+      };
+      "OBJ_418" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_143";
+      };
+      "OBJ_419" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_144";
+      };
+      "OBJ_42" = {
+         isa = "PBXFileReference";
+         path = "adler32.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_420" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_145";
+      };
+      "OBJ_421" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_146";
+      };
+      "OBJ_422" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_147";
+      };
+      "OBJ_423" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_148";
+      };
+      "OBJ_424" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_149";
+      };
+      "OBJ_425" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_150";
+      };
+      "OBJ_426" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_151";
+      };
+      "OBJ_427" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_152";
+      };
+      "OBJ_428" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_153";
+      };
+      "OBJ_429" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_154";
+      };
+      "OBJ_43" = {
+         isa = "PBXFileReference";
+         path = "compress.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_430" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_155";
+      };
+      "OBJ_431" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_156";
+      };
+      "OBJ_432" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_157";
+      };
+      "OBJ_433" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_158";
+      };
+      "OBJ_434" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_159";
+      };
+      "OBJ_435" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_160";
+      };
+      "OBJ_436" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_161";
+      };
+      "OBJ_437" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_162";
+      };
+      "OBJ_438" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_163";
+      };
+      "OBJ_439" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_164";
+      };
+      "OBJ_44" = {
+         isa = "PBXFileReference";
+         path = "crc32.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_440" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_165";
+      };
+      "OBJ_441" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_166";
+      };
+      "OBJ_442" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_167";
+      };
+      "OBJ_443" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_168";
+      };
+      "OBJ_444" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_169";
+      };
+      "OBJ_445" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_170";
+      };
+      "OBJ_446" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_171";
+      };
+      "OBJ_447" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_172";
+      };
+      "OBJ_448" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_173";
+      };
+      "OBJ_449" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_174";
+      };
+      "OBJ_45" = {
+         isa = "PBXFileReference";
+         path = "deflate.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_450" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_175";
+      };
+      "OBJ_451" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_176";
+      };
+      "OBJ_452" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_177";
+      };
+      "OBJ_453" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_178";
+      };
+      "OBJ_454" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_179";
+      };
+      "OBJ_455" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_180";
+      };
+      "OBJ_456" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_181";
+      };
+      "OBJ_457" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_182";
+      };
+      "OBJ_458" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_183";
+      };
+      "OBJ_459" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_184";
+      };
+      "OBJ_46" = {
+         isa = "PBXFileReference";
+         path = "gzclose.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_460" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_185";
+      };
+      "OBJ_461" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_186";
+      };
+      "OBJ_462" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_187";
+      };
+      "OBJ_463" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_188";
+      };
+      "OBJ_464" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_189";
+      };
+      "OBJ_465" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_190";
+      };
+      "OBJ_466" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_191";
+      };
+      "OBJ_467" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_192";
+      };
+      "OBJ_468" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_193";
+      };
+      "OBJ_469" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_194";
+      };
+      "OBJ_47" = {
+         isa = "PBXFileReference";
+         path = "gzlib.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_470" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_195";
+      };
+      "OBJ_471" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_196";
+      };
+      "OBJ_472" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_197";
+      };
+      "OBJ_473" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_198";
+      };
+      "OBJ_474" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_199";
+      };
+      "OBJ_475" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_200";
+      };
+      "OBJ_476" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_201";
+      };
+      "OBJ_477" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_202";
+      };
+      "OBJ_478" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_203";
+      };
+      "OBJ_479" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_204";
+      };
+      "OBJ_48" = {
+         isa = "PBXFileReference";
+         path = "gzread.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_480" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_205";
+      };
+      "OBJ_481" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_206";
+      };
+      "OBJ_482" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_207";
+      };
+      "OBJ_483" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_208";
+      };
+      "OBJ_484" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_209";
+      };
+      "OBJ_485" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_210";
+      };
+      "OBJ_486" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_211";
+      };
+      "OBJ_487" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_212";
+      };
+      "OBJ_488" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_213";
+      };
+      "OBJ_489" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_214";
+      };
+      "OBJ_49" = {
+         isa = "PBXFileReference";
+         path = "gzwrite.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_490" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_215";
+      };
+      "OBJ_491" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_216";
+      };
+      "OBJ_492" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_217";
+      };
+      "OBJ_493" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_218";
+      };
+      "OBJ_494" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_219";
+      };
+      "OBJ_495" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_220";
+      };
+      "OBJ_496" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_221";
+      };
+      "OBJ_497" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_222";
+      };
+      "OBJ_498" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_223";
+      };
+      "OBJ_499" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_224";
+      };
+      "OBJ_5" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_6",
+            "OBJ_7",
+            "OBJ_10",
+            "OBJ_11",
+            "OBJ_355",
+            "OBJ_366",
+            "OBJ_367",
+            "OBJ_368",
+            "OBJ_369"
+         );
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_50" = {
+         isa = "PBXFileReference";
+         path = "infback.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_500" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_225";
+      };
+      "OBJ_501" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_226";
+      };
+      "OBJ_502" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_227";
+      };
+      "OBJ_503" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_228";
+      };
+      "OBJ_504" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_229";
+      };
+      "OBJ_505" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_230";
+      };
+      "OBJ_506" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_231";
+      };
+      "OBJ_507" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_232";
+      };
+      "OBJ_508" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_233";
+      };
+      "OBJ_509" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_234";
+      };
+      "OBJ_51" = {
+         isa = "PBXFileReference";
+         path = "inffast.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_510" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_235";
+      };
+      "OBJ_511" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_236";
+      };
+      "OBJ_512" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_237";
+      };
+      "OBJ_513" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_238";
+      };
+      "OBJ_514" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_239";
+      };
+      "OBJ_515" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_240";
+      };
+      "OBJ_516" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_241";
+      };
+      "OBJ_517" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_242";
+      };
+      "OBJ_518" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_243";
+      };
+      "OBJ_519" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_244";
+      };
+      "OBJ_52" = {
+         isa = "PBXFileReference";
+         path = "inflate.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_520" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_245";
+      };
+      "OBJ_521" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_246";
+      };
+      "OBJ_522" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_247";
+      };
+      "OBJ_523" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_248";
+      };
+      "OBJ_524" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_249";
+      };
+      "OBJ_525" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_250";
+      };
+      "OBJ_526" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_251";
+      };
+      "OBJ_527" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_252";
+      };
+      "OBJ_528" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_253";
+      };
+      "OBJ_529" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_254";
+      };
+      "OBJ_53" = {
+         isa = "PBXFileReference";
+         path = "inftrees.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_530" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_255";
+      };
+      "OBJ_531" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_256";
+      };
+      "OBJ_532" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_257";
+      };
+      "OBJ_533" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_258";
+      };
+      "OBJ_534" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_259";
+      };
+      "OBJ_535" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_260";
+      };
+      "OBJ_536" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_261";
+      };
+      "OBJ_537" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_262";
+      };
+      "OBJ_538" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_263";
+      };
+      "OBJ_539" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_264";
+      };
+      "OBJ_54" = {
+         isa = "PBXFileReference";
+         path = "trees.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_540" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_265";
+      };
+      "OBJ_541" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_266";
+      };
+      "OBJ_542" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_267";
+      };
+      "OBJ_543" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_268";
+      };
+      "OBJ_544" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_269";
+      };
+      "OBJ_545" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_270";
+      };
+      "OBJ_546" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_271";
+      };
+      "OBJ_547" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_272";
+      };
+      "OBJ_548" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_273";
+      };
+      "OBJ_549" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_274";
+      };
+      "OBJ_55" = {
+         isa = "PBXFileReference";
+         path = "uncompr.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_550" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_275";
+      };
+      "OBJ_551" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_276";
+      };
+      "OBJ_552" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_277";
+      };
+      "OBJ_553" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_278";
+      };
+      "OBJ_554" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_279";
+      };
+      "OBJ_555" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_280";
+      };
+      "OBJ_556" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_281";
+      };
+      "OBJ_557" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_282";
+      };
+      "OBJ_558" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_283";
+      };
+      "OBJ_559" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_284";
+      };
+      "OBJ_56" = {
+         isa = "PBXFileReference";
+         path = "zutil.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_560" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_285";
+      };
+      "OBJ_561" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_286";
+      };
+      "OBJ_562" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_287";
+      };
+      "OBJ_563" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_288";
+      };
+      "OBJ_564" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_289";
+      };
+      "OBJ_565" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_290";
+      };
+      "OBJ_566" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_291";
+      };
+      "OBJ_567" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_292";
+      };
+      "OBJ_568" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_293";
+      };
+      "OBJ_569" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_294";
+      };
+      "OBJ_57" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_58",
+            "OBJ_59",
+            "OBJ_60",
+            "OBJ_61",
+            "OBJ_62",
+            "OBJ_63"
+         );
+         name = "include";
+         path = "include";
+         sourceTree = "<group>";
+      };
+      "OBJ_570" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_295";
+      };
+      "OBJ_571" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_296";
+      };
+      "OBJ_572" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_297";
+      };
+      "OBJ_573" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_298";
+      };
+      "OBJ_574" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_299";
+      };
+      "OBJ_575" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_300";
+      };
+      "OBJ_576" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_301";
+      };
+      "OBJ_577" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_302";
+      };
+      "OBJ_578" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_303";
+      };
+      "OBJ_579" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_304";
+      };
+      "OBJ_58" = {
+         isa = "PBXFileReference";
+         path = "czlib.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_580" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_305";
+      };
+      "OBJ_581" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_306";
+      };
+      "OBJ_582" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_307";
+      };
+      "OBJ_583" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_308";
+      };
+      "OBJ_584" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_309";
+      };
+      "OBJ_585" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_310";
+      };
+      "OBJ_586" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_311";
+      };
+      "OBJ_587" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_312";
+      };
+      "OBJ_588" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_313";
+      };
+      "OBJ_589" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_314";
+      };
+      "OBJ_59" = {
+         isa = "PBXFileReference";
+         path = "inftrees.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_590" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_315";
+      };
+      "OBJ_591" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_316";
+      };
+      "OBJ_592" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_317";
+      };
+      "OBJ_593" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_318";
+      };
+      "OBJ_594" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_319";
+      };
+      "OBJ_595" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_320";
+      };
+      "OBJ_596" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_321";
+      };
+      "OBJ_597" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_322";
+      };
+      "OBJ_598" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_323";
+      };
+      "OBJ_599" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_324";
+      };
+      "OBJ_6" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         path = "Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_60" = {
+         isa = "PBXFileReference";
+         path = "zlib.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_600" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_325";
+      };
+      "OBJ_601" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_326";
+      };
+      "OBJ_602" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_327";
+      };
+      "OBJ_603" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_328";
+      };
+      "OBJ_604" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_329";
+      };
+      "OBJ_605" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_330";
+      };
+      "OBJ_606" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_331";
+      };
+      "OBJ_607" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_332";
+      };
+      "OBJ_608" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_61" = {
+         isa = "PBXFileReference";
+         path = "inflate.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_610" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_611",
+            "OBJ_612"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_611" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_612" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Release";
+      };
+      "OBJ_613" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_614"
+         );
+      };
+      "OBJ_614" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_336";
+      };
+      "OBJ_616" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_617",
+            "OBJ_618"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_617" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4.2",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.2";
+         };
+         name = "Debug";
+      };
+      "OBJ_618" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4.2",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.2";
+         };
+         name = "Release";
+      };
+      "OBJ_619" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_620"
+         );
+      };
+      "OBJ_62" = {
+         isa = "PBXFileReference";
+         path = "zconf.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_620" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_6";
+      };
+      "OBJ_622" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_623",
+            "OBJ_624"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_623" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            DEFINES_MODULE = "NO";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectCHTTPParser_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectCHTTPParser";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "PerfectCHTTPParser";
+         };
+         name = "Debug";
+      };
+      "OBJ_624" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            DEFINES_MODULE = "NO";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectCHTTPParser_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectCHTTPParser";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "PerfectCHTTPParser";
+         };
+         name = "Release";
+      };
+      "OBJ_625" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_626"
+         );
+      };
+      "OBJ_626" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_14";
+      };
+      "OBJ_627" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_629" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_630",
+            "OBJ_631"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_63" = {
+         isa = "PBXFileReference";
+         name = "module.modulemap";
+         path = "/Users/ralucamarusca/Documents/Work/ZipperStudios/CreateMLDemo/PerfectTemplate/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include/module.modulemap";
+         sourceTree = "<group>";
+      };
+      "OBJ_630" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            DEFINES_MODULE = "NO";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectCZlib_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectCZlib";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "PerfectCZlib";
+         };
+         name = "Debug";
+      };
+      "OBJ_631" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            DEFINES_MODULE = "NO";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectCZlib_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectCZlib";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "PerfectCZlib";
+         };
+         name = "Release";
+      };
+      "OBJ_632" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_633",
+            "OBJ_634",
+            "OBJ_635",
+            "OBJ_636",
+            "OBJ_637",
+            "OBJ_638",
+            "OBJ_639",
+            "OBJ_640",
+            "OBJ_641",
+            "OBJ_642",
+            "OBJ_643",
+            "OBJ_644",
+            "OBJ_645",
+            "OBJ_646",
+            "OBJ_647"
+         );
+      };
+      "OBJ_633" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_42";
+      };
+      "OBJ_634" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_43";
+      };
+      "OBJ_635" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_44";
+      };
+      "OBJ_636" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_45";
+      };
+      "OBJ_637" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_46";
+      };
+      "OBJ_638" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_47";
+      };
+      "OBJ_639" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_48";
+      };
+      "OBJ_64" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/ralucamarusca/Documents/Work/ZipperStudios/CreateMLDemo/PerfectTemplate/.build/checkouts/Perfect-CZlib-src/Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_640" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_49";
+      };
+      "OBJ_641" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_50";
+      };
+      "OBJ_642" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_51";
+      };
+      "OBJ_643" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_52";
+      };
+      "OBJ_644" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_53";
+      };
+      "OBJ_645" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_54";
+      };
+      "OBJ_646" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_55";
+      };
+      "OBJ_647" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_56";
+      };
+      "OBJ_648" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_65" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_66",
+            "OBJ_77"
+         );
+         name = "PerfectHTTP 3.2.6";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_650" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_651",
+            "OBJ_652"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_651" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_652" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Release";
+      };
+      "OBJ_653" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_654"
+         );
+      };
+      "OBJ_654" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_64";
+      };
+      "OBJ_656" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_657",
+            "OBJ_658"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_657" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectCrypto_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectCrypto";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "PerfectCrypto";
+         };
+         name = "Debug";
+      };
+      "OBJ_658" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectCrypto_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectCrypto";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "PerfectCrypto";
+         };
+         name = "Release";
+      };
+      "OBJ_659" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_660",
+            "OBJ_661",
+            "OBJ_662",
+            "OBJ_663",
+            "OBJ_664",
+            "OBJ_665",
+            "OBJ_666"
+         );
+      };
+      "OBJ_66" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_67",
+            "OBJ_68",
+            "OBJ_69",
+            "OBJ_70",
+            "OBJ_71",
+            "OBJ_72",
+            "OBJ_73",
+            "OBJ_74",
+            "OBJ_75",
+            "OBJ_76"
+         );
+         name = "PerfectHTTP";
+         path = ".build/checkouts/Perfect-HTTP/Sources/PerfectHTTP";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_660" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_90";
+      };
+      "OBJ_661" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_91";
+      };
+      "OBJ_662" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_92";
+      };
+      "OBJ_663" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_93";
+      };
+      "OBJ_664" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_94";
+      };
+      "OBJ_665" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_95";
+      };
+      "OBJ_666" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_96";
+      };
+      "OBJ_667" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_668",
+            "OBJ_669",
+            "OBJ_670"
+         );
+      };
+      "OBJ_668" = {
+         isa = "PBXBuildFile";
+         fileRef = "COpenSSL::COpenSSL::Product";
+      };
+      "OBJ_669" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectThread::PerfectThread::Product";
+      };
+      "OBJ_67" = {
+         isa = "PBXFileReference";
+         path = "HTTPFilter.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_670" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectLib::PerfectLib::Product";
+      };
+      "OBJ_671" = {
+         isa = "PBXTargetDependency";
+         target = "COpenSSL::COpenSSL";
+      };
+      "OBJ_672" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectThread::PerfectThread";
+      };
+      "OBJ_674" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectLib::PerfectLib";
+      };
+      "OBJ_677" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_678",
+            "OBJ_679"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_678" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_679" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Release";
+      };
+      "OBJ_68" = {
+         isa = "PBXFileReference";
+         path = "HTTPHeaders.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_680" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_681"
+         );
+      };
+      "OBJ_681" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_97";
+      };
+      "OBJ_683" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_684",
+            "OBJ_685"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_684" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectHTTP_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectHTTP";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "PerfectHTTP";
+         };
+         name = "Debug";
+      };
+      "OBJ_685" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectHTTP_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectHTTP";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "PerfectHTTP";
+         };
+         name = "Release";
+      };
+      "OBJ_686" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_687",
+            "OBJ_688",
+            "OBJ_689",
+            "OBJ_690",
+            "OBJ_691",
+            "OBJ_692",
+            "OBJ_693",
+            "OBJ_694",
+            "OBJ_695",
+            "OBJ_696"
+         );
+      };
+      "OBJ_687" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_67";
+      };
+      "OBJ_688" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_68";
+      };
+      "OBJ_689" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_69";
+      };
+      "OBJ_69" = {
+         isa = "PBXFileReference";
+         path = "HTTPMethod.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_690" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_70";
+      };
+      "OBJ_691" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_71";
+      };
+      "OBJ_692" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_72";
+      };
+      "OBJ_693" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_73";
+      };
+      "OBJ_694" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_74";
+      };
+      "OBJ_695" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_75";
+      };
+      "OBJ_696" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_76";
+      };
+      "OBJ_697" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_698",
+            "OBJ_699",
+            "OBJ_700",
+            "OBJ_701",
+            "OBJ_702"
+         );
+      };
+      "OBJ_698" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectNet::PerfectNet::Product";
+      };
+      "OBJ_699" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectCrypto::PerfectCrypto::Product";
+      };
+      "OBJ_7" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_8"
+         );
+         name = "Sources";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_70" = {
+         isa = "PBXFileReference";
+         path = "HTTPRequest.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_700" = {
+         isa = "PBXBuildFile";
+         fileRef = "COpenSSL::COpenSSL::Product";
+      };
+      "OBJ_701" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectThread::PerfectThread::Product";
+      };
+      "OBJ_702" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectLib::PerfectLib::Product";
+      };
+      "OBJ_703" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectNet::PerfectNet";
+      };
+      "OBJ_705" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectCrypto::PerfectCrypto";
+      };
+      "OBJ_706" = {
+         isa = "PBXTargetDependency";
+         target = "COpenSSL::COpenSSL";
+      };
+      "OBJ_707" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectThread::PerfectThread";
+      };
+      "OBJ_708" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectLib::PerfectLib";
+      };
+      "OBJ_71" = {
+         isa = "PBXFileReference";
+         path = "HTTPResponse.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_710" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_711",
+            "OBJ_712"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_711" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_712" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Release";
+      };
+      "OBJ_713" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_714"
+         );
+      };
+      "OBJ_714" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_77";
+      };
+      "OBJ_716" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_717",
+            "OBJ_718"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_717" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectHTTPServer_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include/module.modulemap",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include/module.modulemap"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectHTTPServer";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "PerfectHTTPServer";
+         };
+         name = "Debug";
+      };
+      "OBJ_718" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectHTTPServer_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include/module.modulemap",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include/module.modulemap"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectHTTPServer";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "PerfectHTTPServer";
+         };
+         name = "Release";
+      };
+      "OBJ_719" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_720",
+            "OBJ_721",
+            "OBJ_722",
+            "OBJ_723",
+            "OBJ_724",
+            "OBJ_725",
+            "OBJ_726",
+            "OBJ_727",
+            "OBJ_728",
+            "OBJ_729",
+            "OBJ_730",
+            "OBJ_731",
+            "OBJ_732",
+            "OBJ_733",
+            "OBJ_734",
+            "OBJ_735",
+            "OBJ_736",
+            "OBJ_737"
+         );
+      };
+      "OBJ_72" = {
+         isa = "PBXFileReference";
+         path = "MimeReader.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_720" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_20";
+      };
+      "OBJ_721" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_21";
+      };
+      "OBJ_722" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_23";
+      };
+      "OBJ_723" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_24";
+      };
+      "OBJ_724" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_25";
+      };
+      "OBJ_725" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_26";
+      };
+      "OBJ_726" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_27";
+      };
+      "OBJ_727" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_28";
+      };
+      "OBJ_728" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_29";
+      };
+      "OBJ_729" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_30";
+      };
+      "OBJ_73" = {
+         isa = "PBXFileReference";
+         path = "MimeType.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_730" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_31";
+      };
+      "OBJ_731" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_32";
+      };
+      "OBJ_732" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_33";
+      };
+      "OBJ_733" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_34";
+      };
+      "OBJ_734" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_35";
+      };
+      "OBJ_735" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_36";
+      };
+      "OBJ_736" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_37";
+      };
+      "OBJ_737" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_38";
+      };
+      "OBJ_738" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_739",
+            "OBJ_740",
+            "OBJ_741",
+            "OBJ_742",
+            "OBJ_743",
+            "OBJ_744",
+            "OBJ_745",
+            "OBJ_746"
+         );
+      };
+      "OBJ_739" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectCZlib::PerfectCZlib::Product";
+      };
+      "OBJ_74" = {
+         isa = "PBXFileReference";
+         path = "Routing.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_740" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectHTTP::PerfectHTTP::Product";
+      };
+      "OBJ_741" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectNet::PerfectNet::Product";
+      };
+      "OBJ_742" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectCrypto::PerfectCrypto::Product";
+      };
+      "OBJ_743" = {
+         isa = "PBXBuildFile";
+         fileRef = "COpenSSL::COpenSSL::Product";
+      };
+      "OBJ_744" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectThread::PerfectThread::Product";
+      };
+      "OBJ_745" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectLib::PerfectLib::Product";
+      };
+      "OBJ_746" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectHTTPServer::PerfectCHTTPParser::Product";
+      };
+      "OBJ_747" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectCZlib::PerfectCZlib";
+      };
+      "OBJ_748" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectHTTP::PerfectHTTP";
+      };
+      "OBJ_749" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectNet::PerfectNet";
+      };
+      "OBJ_75" = {
+         isa = "PBXFileReference";
+         path = "StaticFileHandler.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_750" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectCrypto::PerfectCrypto";
+      };
+      "OBJ_751" = {
+         isa = "PBXTargetDependency";
+         target = "COpenSSL::COpenSSL";
+      };
+      "OBJ_752" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectThread::PerfectThread";
+      };
+      "OBJ_753" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectLib::PerfectLib";
+      };
+      "OBJ_754" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectHTTPServer::PerfectCHTTPParser";
+      };
+      "OBJ_756" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_757",
+            "OBJ_758"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_757" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_758" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Release";
+      };
+      "OBJ_759" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_760"
+         );
+      };
+      "OBJ_76" = {
+         isa = "PBXFileReference";
+         path = "TypedRoutes.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_760" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_39";
+      };
+      "OBJ_761" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_762",
+            "OBJ_763"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_762" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectLib_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectLib";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "PerfectLib";
+         };
+         name = "Debug";
+      };
+      "OBJ_763" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectLib_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectLib";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "PerfectLib";
+         };
+         name = "Release";
+      };
+      "OBJ_764" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_765",
+            "OBJ_766",
+            "OBJ_767",
+            "OBJ_768",
+            "OBJ_769",
+            "OBJ_770",
+            "OBJ_771",
+            "OBJ_772",
+            "OBJ_773"
+         );
+      };
+      "OBJ_765" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_345";
+      };
+      "OBJ_766" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_346";
+      };
+      "OBJ_767" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_347";
+      };
+      "OBJ_768" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_348";
+      };
+      "OBJ_769" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_349";
+      };
+      "OBJ_77" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/ralucamarusca/Documents/Work/ZipperStudios/CreateMLDemo/PerfectTemplate/.build/checkouts/Perfect-HTTP/Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_770" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_350";
+      };
+      "OBJ_771" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_351";
+      };
+      "OBJ_772" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_352";
+      };
+      "OBJ_773" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_353";
+      };
+      "OBJ_774" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_776" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_777",
+            "OBJ_778"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_777" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_778" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Release";
+      };
+      "OBJ_779" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_780"
+         );
+      };
+      "OBJ_78" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_79",
+            "OBJ_87"
+         );
+         name = "PerfectNet 3.3.0";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_780" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_354";
+      };
+      "OBJ_781" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_782",
+            "OBJ_783"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_782" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectNet_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectNet";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "PerfectNet";
+         };
+         name = "Debug";
+      };
+      "OBJ_783" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectNet_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectNet";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "PerfectNet";
+         };
+         name = "Release";
+      };
+      "OBJ_784" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_785",
+            "OBJ_786",
+            "OBJ_787",
+            "OBJ_788",
+            "OBJ_789",
+            "OBJ_790",
+            "OBJ_791"
+         );
+      };
+      "OBJ_785" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_80";
+      };
+      "OBJ_786" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_81";
+      };
+      "OBJ_787" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_82";
+      };
+      "OBJ_788" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_83";
+      };
+      "OBJ_789" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_84";
+      };
+      "OBJ_79" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_80",
+            "OBJ_81",
+            "OBJ_82",
+            "OBJ_83",
+            "OBJ_84",
+            "OBJ_85",
+            "OBJ_86"
+         );
+         name = "PerfectNet";
+         path = ".build/checkouts/Perfect-Net/Sources/PerfectNet";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_790" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_85";
+      };
+      "OBJ_791" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_86";
+      };
+      "OBJ_792" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_793",
+            "OBJ_794",
+            "OBJ_795",
+            "OBJ_796"
+         );
+      };
+      "OBJ_793" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectCrypto::PerfectCrypto::Product";
+      };
+      "OBJ_794" = {
+         isa = "PBXBuildFile";
+         fileRef = "COpenSSL::COpenSSL::Product";
+      };
+      "OBJ_795" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectThread::PerfectThread::Product";
+      };
+      "OBJ_796" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectLib::PerfectLib::Product";
+      };
+      "OBJ_797" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectCrypto::PerfectCrypto";
+      };
+      "OBJ_798" = {
+         isa = "PBXTargetDependency";
+         target = "COpenSSL::COpenSSL";
+      };
+      "OBJ_799" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectThread::PerfectThread";
+      };
+      "OBJ_8" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_9"
+         );
+         name = "PerfectTemplate";
+         path = "Sources/PerfectTemplate";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_80" = {
+         isa = "PBXFileReference";
+         path = "Net.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_800" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectLib::PerfectLib";
+      };
+      "OBJ_802" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_803",
+            "OBJ_804"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_803" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_804" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Release";
+      };
+      "OBJ_805" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_806"
+         );
+      };
+      "OBJ_806" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_87";
+      };
+      "OBJ_808" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_809",
+            "OBJ_810"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_809" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectTemplate_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include/module.modulemap",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include/module.modulemap"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "PerfectTemplate";
+         };
+         name = "Debug";
+      };
+      "OBJ_81" = {
+         isa = "PBXFileReference";
+         path = "NetAddress.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_810" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectTemplate_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include/module.modulemap",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include/module.modulemap"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "PerfectTemplate";
+         };
+         name = "Release";
+      };
+      "OBJ_811" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_812"
+         );
+      };
+      "OBJ_812" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_9";
+      };
+      "OBJ_813" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_814",
+            "OBJ_815",
+            "OBJ_816",
+            "OBJ_817",
+            "OBJ_818",
+            "OBJ_819",
+            "OBJ_820",
+            "OBJ_821",
+            "OBJ_822"
+         );
+      };
+      "OBJ_814" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectHTTPServer::PerfectHTTPServer::Product";
+      };
+      "OBJ_815" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectCZlib::PerfectCZlib::Product";
+      };
+      "OBJ_816" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectHTTP::PerfectHTTP::Product";
+      };
+      "OBJ_817" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectNet::PerfectNet::Product";
+      };
+      "OBJ_818" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectCrypto::PerfectCrypto::Product";
+      };
+      "OBJ_819" = {
+         isa = "PBXBuildFile";
+         fileRef = "COpenSSL::COpenSSL::Product";
+      };
+      "OBJ_82" = {
+         isa = "PBXFileReference";
+         path = "NetEvent.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_820" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectThread::PerfectThread::Product";
+      };
+      "OBJ_821" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectLib::PerfectLib::Product";
+      };
+      "OBJ_822" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectHTTPServer::PerfectCHTTPParser::Product";
+      };
+      "OBJ_823" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectHTTPServer::PerfectHTTPServer";
+      };
+      "OBJ_824" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectCZlib::PerfectCZlib";
+      };
+      "OBJ_825" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectHTTP::PerfectHTTP";
+      };
+      "OBJ_826" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectNet::PerfectNet";
+      };
+      "OBJ_827" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectCrypto::PerfectCrypto";
+      };
+      "OBJ_828" = {
+         isa = "PBXTargetDependency";
+         target = "COpenSSL::COpenSSL";
+      };
+      "OBJ_829" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectThread::PerfectThread";
+      };
+      "OBJ_83" = {
+         isa = "PBXFileReference";
+         path = "NetNamedPipe.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_830" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectLib::PerfectLib";
+      };
+      "OBJ_831" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectHTTPServer::PerfectCHTTPParser";
+      };
+      "OBJ_832" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_833",
+            "OBJ_834"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_833" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectThread_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectThread";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "PerfectThread";
+         };
+         name = "Debug";
+      };
+      "OBJ_834" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "CreateMLDemo.xcodeproj/PerfectThread_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectThread";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "PerfectThread";
+         };
+         name = "Release";
+      };
+      "OBJ_835" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_836",
+            "OBJ_837",
+            "OBJ_838"
+         );
+      };
+      "OBJ_836" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_339";
+      };
+      "OBJ_837" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_340";
+      };
+      "OBJ_838" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_341";
+      };
+      "OBJ_839" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_84" = {
+         isa = "PBXFileReference";
+         path = "NetTCP.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_841" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_842",
+            "OBJ_843"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_842" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_843" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Release";
+      };
+      "OBJ_844" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_845"
+         );
+      };
+      "OBJ_845" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_342";
+      };
+      "OBJ_85" = {
+         isa = "PBXFileReference";
+         path = "NetTCPSSL.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_86" = {
+         isa = "PBXFileReference";
+         path = "NetUDP.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_87" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/ralucamarusca/Documents/Work/ZipperStudios/CreateMLDemo/PerfectTemplate/.build/checkouts/Perfect-Net/Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_88" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_89",
+            "OBJ_97"
+         );
+         name = "PerfectCrypto 3.2.0";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_89" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_90",
+            "OBJ_91",
+            "OBJ_92",
+            "OBJ_93",
+            "OBJ_94",
+            "OBJ_95",
+            "OBJ_96"
+         );
+         name = "PerfectCrypto";
+         path = ".build/checkouts/Perfect-Crypto/Sources/PerfectCrypto";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_9" = {
+         isa = "PBXFileReference";
+         path = "main.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_90" = {
+         isa = "PBXFileReference";
+         path = "Algorithms.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_91" = {
+         isa = "PBXFileReference";
+         path = "ByteIO.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_92" = {
+         isa = "PBXFileReference";
+         path = "Extensions.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_93" = {
+         isa = "PBXFileReference";
+         path = "JWT.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_94" = {
+         isa = "PBXFileReference";
+         path = "Keys.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_95" = {
+         isa = "PBXFileReference";
+         path = "OpenSSLInternal.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_96" = {
+         isa = "PBXFileReference";
+         path = "PerfectCrypto.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_97" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/ralucamarusca/Documents/Work/ZipperStudios/CreateMLDemo/PerfectTemplate/.build/checkouts/Perfect-Crypto/Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_98" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_99",
+            "OBJ_336"
+         );
+         name = "COpenSSL 4.0.1";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_99" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_100",
+            "OBJ_101",
+            "OBJ_102",
+            "OBJ_103",
+            "OBJ_104",
+            "OBJ_105",
+            "OBJ_106",
+            "OBJ_107",
+            "OBJ_108",
+            "OBJ_109",
+            "OBJ_110",
+            "OBJ_111",
+            "OBJ_112",
+            "OBJ_113",
+            "OBJ_114",
+            "OBJ_115",
+            "OBJ_116",
+            "OBJ_117",
+            "OBJ_118",
+            "OBJ_119",
+            "OBJ_120",
+            "OBJ_121",
+            "OBJ_122",
+            "OBJ_123",
+            "OBJ_124",
+            "OBJ_125",
+            "OBJ_126",
+            "OBJ_127",
+            "OBJ_128",
+            "OBJ_129",
+            "OBJ_130",
+            "OBJ_131",
+            "OBJ_132",
+            "OBJ_133",
+            "OBJ_134",
+            "OBJ_135",
+            "OBJ_136",
+            "OBJ_137",
+            "OBJ_138",
+            "OBJ_139",
+            "OBJ_140",
+            "OBJ_141",
+            "OBJ_142",
+            "OBJ_143",
+            "OBJ_144",
+            "OBJ_145",
+            "OBJ_146",
+            "OBJ_147",
+            "OBJ_148",
+            "OBJ_149",
+            "OBJ_150",
+            "OBJ_151",
+            "OBJ_152",
+            "OBJ_153",
+            "OBJ_154",
+            "OBJ_155",
+            "OBJ_156",
+            "OBJ_157",
+            "OBJ_158",
+            "OBJ_159",
+            "OBJ_160",
+            "OBJ_161",
+            "OBJ_162",
+            "OBJ_163",
+            "OBJ_164",
+            "OBJ_165",
+            "OBJ_166",
+            "OBJ_167",
+            "OBJ_168",
+            "OBJ_169",
+            "OBJ_170",
+            "OBJ_171",
+            "OBJ_172",
+            "OBJ_173",
+            "OBJ_174",
+            "OBJ_175",
+            "OBJ_176",
+            "OBJ_177",
+            "OBJ_178",
+            "OBJ_179",
+            "OBJ_180",
+            "OBJ_181",
+            "OBJ_182",
+            "OBJ_183",
+            "OBJ_184",
+            "OBJ_185",
+            "OBJ_186",
+            "OBJ_187",
+            "OBJ_188",
+            "OBJ_189",
+            "OBJ_190",
+            "OBJ_191",
+            "OBJ_192",
+            "OBJ_193",
+            "OBJ_194",
+            "OBJ_195",
+            "OBJ_196",
+            "OBJ_197",
+            "OBJ_198",
+            "OBJ_199",
+            "OBJ_200",
+            "OBJ_201",
+            "OBJ_202",
+            "OBJ_203",
+            "OBJ_204",
+            "OBJ_205",
+            "OBJ_206",
+            "OBJ_207",
+            "OBJ_208",
+            "OBJ_209",
+            "OBJ_210",
+            "OBJ_211",
+            "OBJ_212",
+            "OBJ_213",
+            "OBJ_214",
+            "OBJ_215",
+            "OBJ_216",
+            "OBJ_217",
+            "OBJ_218",
+            "OBJ_219",
+            "OBJ_220",
+            "OBJ_221",
+            "OBJ_222",
+            "OBJ_223",
+            "OBJ_224",
+            "OBJ_225",
+            "OBJ_226",
+            "OBJ_227",
+            "OBJ_228",
+            "OBJ_229",
+            "OBJ_230",
+            "OBJ_231",
+            "OBJ_232",
+            "OBJ_233",
+            "OBJ_234",
+            "OBJ_235",
+            "OBJ_236",
+            "OBJ_237",
+            "OBJ_238",
+            "OBJ_239",
+            "OBJ_240",
+            "OBJ_241",
+            "OBJ_242",
+            "OBJ_243",
+            "OBJ_244",
+            "OBJ_245",
+            "OBJ_246",
+            "OBJ_247",
+            "OBJ_248",
+            "OBJ_249",
+            "OBJ_250",
+            "OBJ_251",
+            "OBJ_252",
+            "OBJ_253",
+            "OBJ_254",
+            "OBJ_255",
+            "OBJ_256",
+            "OBJ_257",
+            "OBJ_258",
+            "OBJ_259",
+            "OBJ_260",
+            "OBJ_261",
+            "OBJ_262",
+            "OBJ_263",
+            "OBJ_264",
+            "OBJ_265",
+            "OBJ_266",
+            "OBJ_267",
+            "OBJ_268",
+            "OBJ_269",
+            "OBJ_270",
+            "OBJ_271",
+            "OBJ_272",
+            "OBJ_273",
+            "OBJ_274",
+            "OBJ_275",
+            "OBJ_276",
+            "OBJ_277",
+            "OBJ_278",
+            "OBJ_279",
+            "OBJ_280",
+            "OBJ_281",
+            "OBJ_282",
+            "OBJ_283",
+            "OBJ_284",
+            "OBJ_285",
+            "OBJ_286",
+            "OBJ_287",
+            "OBJ_288",
+            "OBJ_289",
+            "OBJ_290",
+            "OBJ_291",
+            "OBJ_292",
+            "OBJ_293",
+            "OBJ_294",
+            "OBJ_295",
+            "OBJ_296",
+            "OBJ_297",
+            "OBJ_298",
+            "OBJ_299",
+            "OBJ_300",
+            "OBJ_301",
+            "OBJ_302",
+            "OBJ_303",
+            "OBJ_304",
+            "OBJ_305",
+            "OBJ_306",
+            "OBJ_307",
+            "OBJ_308",
+            "OBJ_309",
+            "OBJ_310",
+            "OBJ_311",
+            "OBJ_312",
+            "OBJ_313",
+            "OBJ_314",
+            "OBJ_315",
+            "OBJ_316",
+            "OBJ_317",
+            "OBJ_318",
+            "OBJ_319",
+            "OBJ_320",
+            "OBJ_321",
+            "OBJ_322",
+            "OBJ_323",
+            "OBJ_324",
+            "OBJ_325",
+            "OBJ_326",
+            "OBJ_327",
+            "OBJ_328",
+            "OBJ_329",
+            "OBJ_330",
+            "OBJ_331",
+            "OBJ_332",
+            "OBJ_333"
+         );
+         name = "COpenSSL";
+         path = ".build/checkouts/Perfect-COpenSSL/COpenSSL";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "PerfectCZlib::PerfectCZlib" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_629";
+         buildPhases = (
+            "OBJ_632",
+            "OBJ_648"
+         );
+         dependencies = (
+         );
+         name = "PerfectCZlib";
+         productName = "PerfectCZlib";
+         productReference = "PerfectCZlib::PerfectCZlib::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "PerfectCZlib::PerfectCZlib::Product" = {
+         isa = "PBXFileReference";
+         path = "PerfectCZlib.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "PerfectCZlib::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_650";
+         buildPhases = (
+            "OBJ_653"
+         );
+         dependencies = (
+         );
+         name = "PerfectCZlibPackageDescription";
+         productName = "PerfectCZlibPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+      "PerfectCrypto::PerfectCrypto" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_656";
+         buildPhases = (
+            "OBJ_659",
+            "OBJ_667"
+         );
+         dependencies = (
+            "OBJ_671",
+            "OBJ_672",
+            "OBJ_674"
+         );
+         name = "PerfectCrypto";
+         productName = "PerfectCrypto";
+         productReference = "PerfectCrypto::PerfectCrypto::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "PerfectCrypto::PerfectCrypto::Product" = {
+         isa = "PBXFileReference";
+         path = "PerfectCrypto.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "PerfectCrypto::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_677";
+         buildPhases = (
+            "OBJ_680"
+         );
+         dependencies = (
+         );
+         name = "PerfectCryptoPackageDescription";
+         productName = "PerfectCryptoPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+      "PerfectHTTP::PerfectHTTP" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_683";
+         buildPhases = (
+            "OBJ_686",
+            "OBJ_697"
+         );
+         dependencies = (
+            "OBJ_703",
+            "OBJ_705",
+            "OBJ_706",
+            "OBJ_707",
+            "OBJ_708"
+         );
+         name = "PerfectHTTP";
+         productName = "PerfectHTTP";
+         productReference = "PerfectHTTP::PerfectHTTP::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "PerfectHTTP::PerfectHTTP::Product" = {
+         isa = "PBXFileReference";
+         path = "PerfectHTTP.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "PerfectHTTP::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_710";
+         buildPhases = (
+            "OBJ_713"
+         );
+         dependencies = (
+         );
+         name = "PerfectHTTPPackageDescription";
+         productName = "PerfectHTTPPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+      "PerfectHTTPServer::PerfectCHTTPParser" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_622";
+         buildPhases = (
+            "OBJ_625",
+            "OBJ_627"
+         );
+         dependencies = (
+         );
+         name = "PerfectCHTTPParser";
+         productName = "PerfectCHTTPParser";
+         productReference = "PerfectHTTPServer::PerfectCHTTPParser::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "PerfectHTTPServer::PerfectCHTTPParser::Product" = {
+         isa = "PBXFileReference";
+         path = "PerfectCHTTPParser.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "PerfectHTTPServer::PerfectHTTPServer" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_716";
+         buildPhases = (
+            "OBJ_719",
+            "OBJ_738"
+         );
+         dependencies = (
+            "OBJ_747",
+            "OBJ_748",
+            "OBJ_749",
+            "OBJ_750",
+            "OBJ_751",
+            "OBJ_752",
+            "OBJ_753",
+            "OBJ_754"
+         );
+         name = "PerfectHTTPServer";
+         productName = "PerfectHTTPServer";
+         productReference = "PerfectHTTPServer::PerfectHTTPServer::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "PerfectHTTPServer::PerfectHTTPServer::Product" = {
+         isa = "PBXFileReference";
+         path = "PerfectHTTPServer.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "PerfectHTTPServer::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_756";
+         buildPhases = (
+            "OBJ_759"
+         );
+         dependencies = (
+         );
+         name = "PerfectHTTPServerPackageDescription";
+         productName = "PerfectHTTPServerPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+      "PerfectLib::PerfectLib" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_761";
+         buildPhases = (
+            "OBJ_764",
+            "OBJ_774"
+         );
+         dependencies = (
+         );
+         name = "PerfectLib";
+         productName = "PerfectLib";
+         productReference = "PerfectLib::PerfectLib::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "PerfectLib::PerfectLib::Product" = {
+         isa = "PBXFileReference";
+         path = "PerfectLib.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "PerfectLib::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_776";
+         buildPhases = (
+            "OBJ_779"
+         );
+         dependencies = (
+         );
+         name = "PerfectLibPackageDescription";
+         productName = "PerfectLibPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+      "PerfectNet::PerfectNet" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_781";
+         buildPhases = (
+            "OBJ_784",
+            "OBJ_792"
+         );
+         dependencies = (
+            "OBJ_797",
+            "OBJ_798",
+            "OBJ_799",
+            "OBJ_800"
+         );
+         name = "PerfectNet";
+         productName = "PerfectNet";
+         productReference = "PerfectNet::PerfectNet::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "PerfectNet::PerfectNet::Product" = {
+         isa = "PBXFileReference";
+         path = "PerfectNet.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "PerfectNet::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_802";
+         buildPhases = (
+            "OBJ_805"
+         );
+         dependencies = (
+         );
+         name = "PerfectNetPackageDescription";
+         productName = "PerfectNetPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+      "PerfectThread::PerfectThread" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_832";
+         buildPhases = (
+            "OBJ_835",
+            "OBJ_839"
+         );
+         dependencies = (
+         );
+         name = "PerfectThread";
+         productName = "PerfectThread";
+         productReference = "PerfectThread::PerfectThread::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "PerfectThread::PerfectThread::Product" = {
+         isa = "PBXFileReference";
+         path = "PerfectThread.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "PerfectThread::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_841";
+         buildPhases = (
+            "OBJ_844"
+         );
+         dependencies = (
+         );
+         name = "PerfectThreadPackageDescription";
+         productName = "PerfectThreadPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+   };
+   rootObject = "OBJ_1";
+}
